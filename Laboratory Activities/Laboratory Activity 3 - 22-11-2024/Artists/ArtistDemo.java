@@ -6,7 +6,7 @@ public class ArtistDemo {
 
         System.out.println();
 
-        Singer singer = new Singer("Nayeon Im", "Korean", 29, "Music", Genre.POP);
+        Singer singer = new Singer("Sabrina Carpenter", "American", 25, "Music", Genre.POP);
         singer.displayInfo();
 
         System.out.println();
@@ -21,7 +21,7 @@ public class ArtistDemo {
 
         System.out.println();
 
-        Painter painter = new Painter("Vincent van Gogh", "Dutch",37, "Art", Medium.OIL);
+        Painter painter = new Painter("Vincent van Gogh", "Dutch", 37, "Art", Medium.OIL);
         painter.displayInfo();
 
     }
