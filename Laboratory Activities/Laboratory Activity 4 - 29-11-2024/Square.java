@@ -7,7 +7,7 @@ public class Square implements Shape {
 
     @Override
     public double getArea() {
-        return Math.pow(2, side);
+        return Math.pow(side, 2);
     }
 
     @Override
